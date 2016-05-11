@@ -13,7 +13,10 @@
                  [compojure "1.5.0"]
                  [environ "1.0.2"]
                  [http-kit "2.1.19"]
-                 [reagent "0.5.1"]]
+                 [reagent "0.5.1"]
+                 [com.cemerick/friend "0.2.2-SNAPSHOT"]
+                 [qarth "0.1.1"]
+                 [clj-http "2.1.0"]]
 
   :plugins [[lein-cljsbuild "1.1.1"]
             [lein-environ "1.0.1"]]
